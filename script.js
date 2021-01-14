@@ -72,4 +72,5 @@ document.getElementById("arrowNext").addEventListener("click", function() {
     selectedImg = nextImg;
     document.getElementById("modalImg").style.backgroundImage = "url('assets/"+nextImg+".jpg')";
 
-  }); 
+  });
+  console.log(window.innerHeight)

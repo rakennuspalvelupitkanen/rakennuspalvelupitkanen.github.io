@@ -15,15 +15,23 @@
             letter-spacing: 4px;
             padding-top: 5px;}
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 420px) {
     /* For phone: */
-    .logoTxt1{font-size: 21px;}
+    .logoTxt1{font-size: 20px;}
     .logoTxt2{font-size: 13px;}
     .menuTxt{font-size: 12px;
              margin-left: 2%;
              margin-right: 2%;
             letter-spacing: 3px;
             padding-top: 5px;}
+  }
+  @media only screen and (max-height: 530px) {
+    
+    .bigLogo{top: 22%;}
+    .logoHand{margin-bottom: -60px;}
+    .logoTxt1{padding-bottom: 0px;}
+  
+
   }
 
  
