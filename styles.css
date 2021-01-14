@@ -225,5 +225,8 @@ a {
     display: flex;
     flex-direction: column;
   }
-  
+  @font-face {
+    font-family: Impact;
+    src: url("fonts/impact.ttf");
+  }
 
