@@ -1,0 +1,229 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+a { 
+      text-decoration: none;
+      color: #605F5F;
+}
+.landingPage{
+    position: relative;
+    background-image: url("assets/backgroundHome2.png");
+    height: 100%;
+    
+    
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bigLogo{
+    
+    z-index: -1;
+    position: fixed;
+    width: 700px;
+    height: 200px;  
+    top: 17%;
+    left: 50%;
+    margin-left: -350px; /* Negative half of width. */
+    /* background-color: tomato; */
+    text-align: center;
+}
+.palvelutPage{
+    width: 100%;
+    min-height: 400px;
+    background-color: #d6d2c7;
+    padding-bottom: 5px;
+}
+.kuvatPage{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(167, 167, 167);
+}
+.yhteysPage{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(196, 186, 171);
+    padding-bottom: 200px;
+}
+.menuBar{
+    width: 100%;
+    height: 50px;
+    
+}
+.block {
+    position: fixed;
+    height: 50px;
+    background: white;
+    filter: alpha(opacity=90);
+    /* IE */
+    -moz-opacity: 0.9;
+    /* Mozilla */
+    opacity: 0.9;
+    /* CSS3 */
+    width: 100%;
+    border-bottom: darkgray 1px solid;
+  }
+  .logoTxt1{
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    padding-bottom: 20px;
+  }
+  .logoTxt2{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 7px;
+  }
+  .logoHand{
+    width: 100px;
+    height: 100px;
+    background-image: url("assets/logohand.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: -40px;
+  }
+  .logoHome{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-image: url("assets/logohouse.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 335px;
+    animation: mymove 2s infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    0%   {margin-top: -41px;}
+    50%   {margin-top: -46px;}
+    100% {margin-top: -41px;}
+}
+.menuTxtGroup{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    position: fixed;
+}
+.menuTxt{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 7px;
+    padding-left: 7px;
+    color: #605F5F;
+    
+    margin-left: 3%;
+    margin-right: 3%;
+    border-right: darkgrey 1px solid;
+    border-left: darkgrey 1px solid;
+  }
+  .smallTitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #605F5F;
+    padding-top: 47px;
+    padding-left: 60px;
+    font-size: 20px;
+    
+  }
+  .bigTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #C70C10;
+    padding-top: 0px;
+    padding-left: 60px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-right: 20px;
+  }
+  .palvelutTxt{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+      font-size: 20px;
+      font-weight: 400;
+      padding-left: 60px;
+      padding-right: 20px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    background-color: rgb(247, 247, 247);
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+  .mattiImg{
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 18px;
+  }
+  .cardImgTxt{
+    width: 90%;
+    padding-top: 5px;
+  }
+  .cardImglogo{
+    width: 10%;
+    padding-top: 5px;
+    
+  }
+  .cardName{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    padding-bottom: 25px;
+    
+  }
+  .cards{
+      display: flex;
+      flex-wrap: wrap;
+      /* padding-left: 30%; */
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .footer{
+      text-align: end;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgb(66, 66, 66);
+      color: whitesmoke;
+      font-weight: 100;
+      padding-right: 15px;
+      font-size: 13px;
+      height: 20px;
+  }
+
+  .grid-container {
+    display: flex;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    flex-wrap: wrap;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    width: 250px;
+    margin: 15px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+  
+

@@ -1,0 +1,127 @@
+#img0{
+    background-image: url("assets/img0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#img1{
+    background-image: url("assets/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img2{
+    background-image: url("assets/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img3{
+    background-image: url("assets/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img4{
+    background-image: url("assets/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img5{
+    background-image: url("assets/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img6{
+    background-image: url("assets/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img7{
+    background-image: url("assets/img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img8{
+    background-image: url("assets/img8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.smallImg:hover{
+    cursor: pointer;
+}
+
+/* MODAL____________________________________________ */
+
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #d6d2c7;
+    margin: 20px auto; /* 15% from the top and centered */
+    /* padding-bottom: 20px; */
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+    height: 90vh;
+    max-height: 100%;
+   
+   
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #d6d2c7;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #modalImg{
+      width: 100%;
+      height: 90vh;
+      max-height: 100%;
+      background-color:  #d6d2c7;
+      background-image: url('assets/logotrans.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-attachment: fixed;
+      background-position: center;
+      /* background-color: chartreuse; */
+      
+  }
+  .modalArrow{
+      width: 10%;
+      min-width: 40px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      background-color: rgb(167, 167, 167);
+      color: rgb(105, 101, 101);
+  }
+  .modalArrow:hover,
+  .modalArrow:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
